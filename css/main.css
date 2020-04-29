@@ -16,11 +16,25 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #FD120A
 }
 a:hover {
-    text-decoration: underline;
+    font-weight: bold;
 }
+
+a:visited {
+  color: #0A0103;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:active {
+  color: #0A0103;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 h1 {
     font-size: 1.5em;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
