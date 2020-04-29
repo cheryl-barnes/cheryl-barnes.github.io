@@ -22,11 +22,11 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
 }
 p {
-    font-family:'Optima', 'Arial', 'Sans-Serif';
+    font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 1em;
     color: #7A122C
 }
