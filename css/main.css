@@ -2,12 +2,13 @@ ribbon {
     margin: 20px auto;
     font-size: 0.8em;
     font-weight: bold;
+    color: #C6C9CD;
 }        
     
 header {
     border-bottom: 1px solid #d5d5d5;
     font-size: 0.8em;
-    color: #000205
+    color: #000205;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     width: 70%;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
-    color: #190CA8
+    color: #190CA8;
 }
 nav ul, footer ul {
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
@@ -25,11 +26,11 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    color: #C5C7CB
+    color: #C5C7CB;
 }
 a {
     text-decoration: none;
-    color: #0654EF
+    color: #0654EF;
 }
 a:hover {
     color: #999;
@@ -38,7 +39,7 @@ a:hover {
 
 a:active {
    text-decoration: none;
-   color: #0654EF
+   color: #0654EF;
 }
 
 h1 {
@@ -49,13 +50,13 @@ h1 {
 p {
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 1em;
-    color: #7A122C
+    color: #7A122C;
 }
 
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 0.8em;
-    color: #000205
+    color: #000205;
 }
 
 ul.posts { 
