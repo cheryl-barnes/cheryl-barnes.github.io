@@ -6,7 +6,6 @@ ribbon {
 }        
     
 header {
-    border-bottom: 1px solid #d5d5d5;
     font-size: 0.8em;
     color: #000205;
 }
@@ -43,6 +42,7 @@ a:active {
 }
 
 h1 {
+    border-bottom: 1px solid #d5d5d5;
     margin: 20px auto;
     font-size: 1.5em;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
