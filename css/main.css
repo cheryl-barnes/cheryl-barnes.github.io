@@ -1,3 +1,9 @@
+header {
+    border-bottom: 1px solid #d5d5d5;
+    font-size: .8em;
+    color: #000205
+}
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -39,6 +45,7 @@ p {
     font-size: 1em;
     color: #7A122C
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
