@@ -19,14 +19,8 @@ a {
     color: #FD120A
 }
 a:hover {
+    color: #999;
     font-weight: bold;
-}
-
-a:visited {
-  color: #0A0103;
-  background-color: transparent;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 a:active {
