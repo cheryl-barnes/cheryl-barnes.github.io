@@ -11,7 +11,7 @@ header {
 }
 
 body {
-    margin: 60px auto;
+    margin: 40px auto;
     width: 70%;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
@@ -37,7 +37,7 @@ a:hover {
 }
 
 h1 {
-    margin: 20px auto;
+    margin: 0px auto;
     font-size: 1.5em;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
 }
