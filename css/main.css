@@ -2,7 +2,7 @@ ribbon {
     margin: 20px auto;
     font-size: 0.8em;
     font-weight: bold;
-    color: #C6C9CD;
+    color: #999;
 }        
     
 header {
@@ -56,7 +56,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 0.8em;
-    color: #000205;
+    color: #999;
 }
 
 ul.posts { 
