@@ -1,3 +1,10 @@
+ nav {
+
+            }
+
+        .nav a{
+            font-size: 0.8em;
+        }
 .navbar .nav {
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 0.8em; 
