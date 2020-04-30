@@ -75,3 +75,8 @@ ul li:before {
   position: absolute;
   margin-left: -20px;
 }
+
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
