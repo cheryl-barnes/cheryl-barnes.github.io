@@ -80,3 +80,8 @@ ol {
   padding-left: 40px;
   list-style-position: outside; 
 }
+
+li {
+    list-style-position: outside;
+    padding-left: 1em;
+}
