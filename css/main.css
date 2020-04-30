@@ -7,7 +7,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 20px;
     list-style: none;
 }
 nav ul li, footer ul li {
