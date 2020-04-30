@@ -66,16 +66,6 @@ ul.posts {
     font-size: 1.5em;
 }
 
-ul {
-  list-style-type: none;
-}
-
-ul li:before {
-  content: '\2014';
-  position: absolute;
-  margin-left: -20px;
-}
-
 .hangingindent {
   padding-left: 22px ;
   text-indent: -22px ;
