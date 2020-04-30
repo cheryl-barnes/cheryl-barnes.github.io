@@ -73,7 +73,8 @@ ul.posts li {
 }
 
 ul {
-  list-style-position: outside;
+ margin-left: 1em; 
+ list-style-position: outside;
 }
 
 ol {
@@ -83,5 +84,5 @@ ol {
 
 li {
     list-style-position: outside;
-    padding-left: 1em;
+    padding-left: 0.5em;
 }
