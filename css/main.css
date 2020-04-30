@@ -69,3 +69,7 @@ ul.posts {
 .hangingindent {
   padding-left: 22px ;
 }
+
+.wp-caption-text {
+    color: white;
+}
