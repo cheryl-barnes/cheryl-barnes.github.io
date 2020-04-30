@@ -63,10 +63,12 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    list-style-position: outside;
 }
 
 ul.posts li {
     list-style: none;
+    list-style-position: outside;
 }
 
 ul {
