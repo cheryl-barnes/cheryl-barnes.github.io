@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html land="en">
+	
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="description" content="Cheryl Barnes">
+  <meta name="author" content="Cheryl Barnes">
+
+  <title>Barnes | support</title>
+	
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+	
+		</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="./index.html">cheryl barnes</a></li>
+			<li><a href="./about.html">BIO</a></li>
+	        	<li><a href="./research.html">RESEARCH</a></li>
+			<li><a href="./media.html">MEDIA/LINKS</a></li>
+        		<li><a href="/Barnes_CV_web.pdf" target="_blank">CV</a></li>
+    		</ul>
+		</nav>
+		
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="bs-component">
+		
+<p> 	<span style="font-size: 1.5em; color: #190CA8;"> project support </span> <br>
+The following individuals assisted with sample collection, laboratory processing, database management, and/or education and outreach activities for one of more projects. Countless volunteers, fishers, and managers have also contributed to various aspects of my work. Publications and other professional successes would not have been possible without their time and effort! 
+<span style="font-size: 0.8em; color: #190CA8;">
+Alex Aines (2013)<br>
+Daniel Anaya (2013)<br>
+Joshua Antus (2009)<br>
+Karen Askeland (2010)<br>
+Madison Bargas (2017)<br>
+Kaitlyn Beck (2014)<br>
+Ellen Bjork (2008)<br>
+Sara Briley (2008)<br>
+Katie Brown (2016)<br>
+Adam Chorazyczewski (2014)<br>
+Helena Delgado-Nordmann (2016)<br>
+Caitlin Doles (2013)<br>
+Danielle Duncan (2013)<br>
+Alex Feck (2009)<br>
+Amanda Gile (2015)<br>
+Chris Giordano (2014)<br>
+Hallie Heath (2013-14)<br>
+Ashely Hedger (2009)<br>
+Elizabeth Hetherington (2009)<br>
+Chanelle Hope (2010)<br>
+Georgina Hunt (2015)<br>
+Zachary Johanson (2016)<br>
+Aiden Kamber (2017)<br>
+Laura Knopp (2009)<br>
+Kristin Kuhn (2008)<br>
+Sawyer Link (2016)<br>
+Serena Lomonico (2014)<br>
+Marianne Mairz (2010)<br>
+Rhiannon McCollough (2013)<br>
+Paul Muehlenbeck (2012)<br>
+Robert Rand (2011-12)<br>
+Samantha Robinson (2011)<br>
+Kristina Ros (2010)<br>
+Marty Schmidt (2012)<br>
+Elizabeth Schurig (2013)<br>
+Sima Saadat (2010-11)<br>
+Nikka Siababa (2014)<br>
+Aaron Sloan (2014)<br>
+Emily Stollmeyer (2013)<br>
+Harmony Wayner (2016-17)<br>
+Dani Weir (2009) </span>
+
+		</div>
+		</div>
+		</div>
+	<br>
+		<footer>
+    		<ul>
+        		<li><a href="mailto:cheryl.lee.barnes@gmail.com">email</a></li>
+        		<li><a href="https://github.com/cheryl-barnes">github.com/cheryl-barnes</a></li>
+			<li><a href="https://www.researchgate.net/profile/Cheryl_Barnes">ResearchGate</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
