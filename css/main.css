@@ -1,6 +1,6 @@
-.ribbon {
+.topnav a {
     border: 1px solid #d5d5d5;
-    font-size: 0.8em;
+    font-size: 1.0em;
     font-weight: bold;
     color: #999;
 }        
