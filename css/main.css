@@ -1,23 +1,10 @@
- nav {
-            }
-
-        .nav a{
-            font-size: 0.9em !important;
-        }
 .navbar .nav {
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
-    font-size: 0.9em; 
+    font-size: 0.8em; 
     border: 1px solid #d5d5d5;
     padding: 0px;
     list-style: none;
-}
-
-.topnav a {
-    border: 1px solid #d5d5d5;
-    font-size: 1.0em;
-    font-weight: bold;
-    color: #999;
-}        
+}     
     
 header {
     font-size: 0.8em;
