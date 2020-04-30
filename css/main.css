@@ -46,6 +46,10 @@ ul.posts {
     font-size: 1.5em;
 }
 
-p.border {
+p.border.bottom {
+    border-bottom: 1px solid #d5d5d5;
+}
+
+p.border.top {
     border-top: 1px solid #d5d5d5;
 }
