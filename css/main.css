@@ -75,3 +75,8 @@ ul.posts li {
 ul {
   list-style-position: outside;
 }
+
+ol {
+  padding-left: 40px;
+  list-style-position: outside; 
+}
