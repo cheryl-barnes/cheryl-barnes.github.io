@@ -65,3 +65,7 @@ ul.posts {
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
+
+.hangingindent {
+  padding-left: 22px ;
+}
