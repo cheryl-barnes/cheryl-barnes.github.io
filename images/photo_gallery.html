@@ -13,71 +13,32 @@
 
 <link rel="stylesheet" type="text/css" href="../css/main.css">
 	
-<style>
+</head>
+	<style>
+body {
+  font-family: Avenir Book;
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
 }
 
-.row > .column {
-  padding: 0 8px;
+img {
+  vertical-align: middle;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 25%;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
-}
-
-/* Modal Content */
-.modal-content {
+/* Position the image container (needed to position the left and right arrows) */
+.container {
   position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
 }
 
-/* The Close Button */
-.close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-}
-
+/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
+/* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
@@ -87,14 +48,13 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -121,17 +81,27 @@
   top: 0;
 }
 
-img {
-  margin-bottom: -4px;
-}
-
+/* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: black;
+  background-color: #222;
   padding: 2px 16px;
   color: white;
 }
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
@@ -140,17 +110,7 @@ img {
 .demo:hover {
   opacity: 1;
 }
-
-img.hover-shadow {
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 </style>
-	
-</head>
 	<body>
 		<nav>
     		<ul>
@@ -168,43 +128,8 @@ img.hover-shadow {
 		
 <p> 	<span style="font-size: 1.5em; color: #190CA8;"> photo gallery </span> </p>
 		<p> more coming soon...</p>
-  <div class="row">
-		<div class="column">
-    <img src="./Barnes_Cabezon.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-		
-  <div class="column">
-    <img src="./Cal_Hal_33259_Ovary.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-	  
-	    <div class="column">
-    <img src="./Amalga_KB__2253.jKB_g.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-	  
-	    <div class="column">
-    <img src="./Helen_Zach_PullingOtolithsKB__2695.jKB_g.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-	  
-	    <div class="column">
-    <img src="./Hunt_Gile_Dissection_IMG_9198.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-	  
-	    <div class="column">
-    <img src="./Rhinoceros_IMG_3790_edited.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-		
-  <div class="column">
-    <img src="./IMG_8540.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
-		
-</div>
-	      </div>
-	    </div>
-
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
+  
+	  <div class="container">
     <div class="mySlides">
       <div class="numbertext">1 / 4</div>
       <img src="./Barnes_Cabezon.jpeg" style="width:100%">
@@ -246,40 +171,41 @@ img.hover-shadow {
     <div class="caption-container">
       <p id="caption"></p>
     </div>
-
-    <div class="column">
-      <img class="demo cursor" src="./Barnes_Cabezon.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Cabezon (released), CA">
-    </div>
-	  
-    <div class="column">
-      <img class="demo cursor" src="./Cal_Hal_33259_Ovary.jpg" style="width:100%" onclick="currentSlide(2)" alt="CA Halibut ovary (preserved)">
-    </div>
-	  
-	        <img class="demo cursor" src="./Amalga_KB__2253.jKB_g.jpg" style="width:100%" onclick="currentSlide(1)" alt="Amalga Harbor, Juneau AK: port sampling site">
-    </div>
-	      <img class="demo cursor" src="./Helen_Zach_PullingOtolithsKB__2695.jKB_g.jpg" style="width:100%" onclick="currentSlide(1)" alt="Extracting otoliths for prey identification">
-    </div>
-	          <img class="demo cursor" src="./Hunt_Gile_Dissection_IMG_9198.JPG" style="width:100%" onclick="currentSlide(1)" alt="Processing fish carcasses for food habits study">
-    </div>
-		      <img class="demo cursor" src="./Rhinoceros_IMG_3790_edited.png" style="width:100%" onclick="currentSlide(1)" alt="My favorite prey item - the Rhinoceros crab">
-    </div>
-	  
-    <div class="column">
-      <img class="demo cursor" src="./IMG_8540.JPG" style="width:100%" onclick="currentSlide(3)" alt="Preparing otolith thin sections">
-    </div>
-
-	     </div>
-	   </div>
+		  
+		<div class="row">
+		<div class="column">
+    <img src="./Barnes_Cabezon.jpeg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
 		
+  <div class="column">
+    <img src="./Cal_Hal_33259_Ovary.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+	  
+	    <div class="column">
+    <img src="./Amalga_KB__2253.jKB_g.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+	  
+	    <div class="column">
+    <img src="./Helen_Zach_PullingOtolithsKB__2695.jKB_g.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+	  
+	    <div class="column">
+    <img src="./Hunt_Gile_Dissection_IMG_9198.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+	  
+	    <div class="column">
+    <img src="./Rhinoceros_IMG_3790_edited.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+		
+  <div class="column">
+    <img src="./IMG_8540.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+		
+</div>
+	      </div>
+	    </div>
+
 <script>
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -309,6 +235,9 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
+    
+</body>
+
 <br>
 			<footer>
     		<ul>
