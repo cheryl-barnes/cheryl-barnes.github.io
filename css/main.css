@@ -1,20 +1,5 @@
- nav {
-
-            }
-
-        .nav a{
-            font-size: 0.8em;
-        }
-.navbar .nav {
-    font-family:'Avenir Book', 'Arial', 'Sans-Serif';
-    font-size: 0.8em; 
-    border: 1px solid #d5d5d5;
-    padding: 0px;
-    list-style: none;
-}     
-
 body {
-    margin: 10px auto;
+    margin: 0px auto;
     width: 80%;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
@@ -27,7 +12,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 0px;
     color: #C5C7CB;
 }
 a {
@@ -57,6 +42,6 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 0px auto 0px; 
     font-size: 1.5em;
 }
