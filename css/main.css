@@ -14,7 +14,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin: 5px 0px 0px 0px;
+    margin: 5px 25px 20px 0px;
     color: #C5C7CB;
     font-size: 0.9em;
 }
