@@ -9,12 +9,13 @@ nav ul, footer ul {
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
+    font-size: 0.9em;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 25px;
     color: #C5C7CB;
-    font-size: 1.0em;
+    font-size: 0.9em;
 }
 a {
     text-decoration: none;
