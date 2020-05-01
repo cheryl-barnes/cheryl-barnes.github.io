@@ -1,6 +1,6 @@
 body {
     margin: 0px auto;
-    width: 85%;
+    width: 90%;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     color: #190CA8;
@@ -42,7 +42,7 @@ footer {
 }
 
 ul.posts { 
-    margin: 10px auto 30px 0px; 
+    margin: 10px auto 20px 0px; 
     font-size: 1.5em;
 }
 
