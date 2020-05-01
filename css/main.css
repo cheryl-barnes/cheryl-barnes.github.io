@@ -10,7 +10,6 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-size: 0.9em;
-    margin: 0px auto;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -19,13 +18,13 @@ nav ul li, footer ul li {
     font-size: 0.9em;
 }
 a {
+    margin: 3px; auto;
     text-decoration: none;
     color: #626C7A;
 }
 a:hover {
     color: #0654EF;
     font-weight: bold;
-    margin: 0px auto;
 }
 
 h1 { 
@@ -40,7 +39,7 @@ p {
 }
 
 footer {
-    margin: 0px auto;
+    margin: 3px auto;
     border-top: 1px solid #d5d5d5;
     font-size: 0.8em;
     color: #999;
