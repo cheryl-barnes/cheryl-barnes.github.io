@@ -10,16 +10,16 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-size: 0.9em;
-    margin: 5px; auto
+    margin: 5px auto 0px 0px;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin: 5px 25px;
+    margin: 5px 25px 0px 0px;
     color: #C5C7CB;
     font-size: 0.9em;
 }
 a {
-    margin: 3px; auto;
+    margin: 3px auto;
     text-decoration: none;
     color: #626C7A;
 }
@@ -40,7 +40,7 @@ p {
 }
 
 footer {
-    margin: 3px auto;
+    margin: 3px auto 0px 0px;
     border-top: 1px solid #d5d5d5;
     font-size: 0.8em;
     color: #999;
