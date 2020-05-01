@@ -1,13 +1,13 @@
 body {
     margin: 0px auto;
-    width: 80%;
+    width: 85%;
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     color: #190CA8;
 }
 nav ul, footer ul {
     font-family:'Avenir Book', 'Arial', 'Sans-Serif';
-    padding: 20px;
+    padding: 0px;
     list-style: none;
 }
 nav ul li, footer ul li {
