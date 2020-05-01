@@ -10,10 +10,11 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-size: 0.9em;
+    margin: 5px; auto
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 25px;
+    margin: 5px 25px;
     color: #C5C7CB;
     font-size: 0.9em;
 }
