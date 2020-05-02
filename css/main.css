@@ -58,8 +58,3 @@ p.border.bottom {
 p.border.top {
     border-top: 1px solid #d5d5d5;
 }
-
-br { 
-    display: block; 
-    margin-bottom: -0.5em; 
-        }
