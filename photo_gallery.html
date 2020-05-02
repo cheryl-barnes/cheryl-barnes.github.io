@@ -26,8 +26,9 @@ body {
 }
 
 img {
-  height: 100%;
-  width: auto;
+  max-height: 500px
+  width: 100%;
+  height: auto;
   object-fit: contain;
 }
 
@@ -103,10 +104,12 @@ img {
 /* Six columns side by side */
 .column {
   float: left;
-  height:95px;
-  width:100%;
+  max-width:150px;
+  max-height:95px;
+  width: auto;
+  height: auto;
   overflow: hidden;
-  padding: 5px;    
+  padding: 5px;
 }
 
 /* Add a transparency effect for thumnbail images */
