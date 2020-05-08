@@ -2,14 +2,14 @@ body {
     margin: 0px auto;
     width: 90%;
     font-family:'Avenir Next', 'Arial', 'Sans-Serif';
-    font-size: 1.5em;
+    font-size: 14px;
     color: #190CA8;
 }
 nav ul, footer ul {
     font-family:'Avenir Next', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-size: 0.9em;
+    font-size: 9px;
     color: #D0D0D0
     margin: 5px auto 0px 0px;
 }
@@ -17,7 +17,7 @@ nav ul li, footer ul li {
     display: inline;
     margin: 15px 25px 20px 0px;
     color: #C5C7CB;
-    font-size: 0.9em;
+    font-size: 9px;
 }
 a {
     margin: 3px auto;
@@ -31,19 +31,19 @@ a:hover {
 
 h1 { 
      margin: 0px auto;
-     font-size: 1.5em;
+     font-size: 14px;
      font-family:'Avenir Next', 'Arial', 'Sans-Serif';
 }
 p {
     font-family:'Avenir Next', 'Arial', 'Sans-Serif';
-    font-size: 1em;
+    font-size: 12px;
     color: #7A122C;
 }
 
 footer {
     margin: 3px auto 10px 0px;
     border-top: 1px solid #d5d5d5;
-    font-size: 0.85em;
+    font-size: 12px;
     color: #999;
     text-align: right;
 }
