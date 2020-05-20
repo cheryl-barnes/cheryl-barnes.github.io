@@ -16,9 +16,9 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
     color: #C5C7CB;
-    padding: 0px 0px 0px 25px;
+    padding: 10px 25px 10px 0px;
     font-size: 18px;
 }
 a {
