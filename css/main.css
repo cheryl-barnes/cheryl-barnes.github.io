@@ -12,11 +12,11 @@ nav ul, footer ul {
     list-style: none;
     font-size: 18px;
     color: #D0D0D0
-    margin: 2.5px auto 0px auto;
+    margin: 0px auto 0px auto;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin: 12.5px 25px 0px 0px;
+    margin: 5px 25px 0px 0px;
     color: #C5C7CB;
     padding: 0px;
     font-size: 18px;
