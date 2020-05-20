@@ -23,22 +23,19 @@ nav ul li, footer ul li {
 }
 a {
     margin: 3px auto 0px auto;
+    padding: 0px;
     text-decoration: none;
     color: #626C7A;
 }
 a:hover {
     color: black;
-    font-weight: 500;
+    font-weight: 450;
 }
 
-h1 { 
-     margin: 0px auto;
-     font-size: 24px;
-     font-family:'Avenir Next', 'Arial', 'Sans-Serif';
-}
 p {
     font-family:'Avenir Next', 'Arial', 'Sans-Serif';
     font-size: 20px;
+    padding: 0px;
     color: #7A122C;
 }
 
@@ -55,12 +52,4 @@ ul.posts {
     margin: 0px auto 0px auto; 
     padding: 0px;
     font-size: 20px;
-}
-
-p.border.bottom {
-    border-bottom: 1px solid #d5d5d5;
-}
-
-p.border.top {
-    border-top: 1px solid #d5d5d5;
 }
