@@ -1,13 +1,13 @@
 body {
     margin: 0px auto 0px auto;
     width: 90%;
-    font-family:'Avenir Next', 'Arial', 'Sans-Serif';
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
     font-size: 20px;
     padding: 0px;
     color: #190CA8;
 }
 nav ul, footer ul {
-    font-family:'Avenir Next', 'Arial', 'Sans-Serif';
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-size: 18px;    
@@ -33,7 +33,7 @@ a:hover {
 }
 
 p {
-    font-family:'Avenir Next', 'Arial', 'Sans-Serif';
+    font-family:'Montserrat', 'Arial', 'Sans-Serif';
     font-size: 20px;
     padding: 0px;
     color: #7A122C;
