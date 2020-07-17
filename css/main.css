@@ -2,7 +2,7 @@ body {
     margin: 0px auto 0px auto;
     width: 90%;
     font-family: 'Century Gothic', 'Verdana', 'Sans-Serif';
-    font-size: 20px;
+    font-size: 1.25em;
     padding: 0px;
     color: #190CA8;
 }
@@ -10,7 +10,7 @@ nav ul, footer ul {
     font-family: 'Century Gothic', 'Verdana', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-size: 18px;    
+    font-size: 1.11em;    
     margin: 5px auto 5px auto;
     color: #D0D0D0
 }
@@ -19,7 +19,7 @@ nav ul li, footer ul li {
     margin: 5px 0px 5px 0px;
     color: #C5C7CB;
     padding: 10px 25px 10px 0px;
-    font-size: 18px;
+    font-size: 1.11em;
 }
 a {
     margin: 3px auto 0px auto;
@@ -34,7 +34,7 @@ a:hover {
 
 p {
     font-family: 'Century Gothic', 'Verdana', 'Sans-Serif';
-    font-size: 20px;
+    font-size: 1.25em;
     padding: 0px;
     color: #7A122C;
 }
@@ -42,7 +42,7 @@ p {
 footer {
     margin: 0px auto 0px auto;
     border-top: 1px solid #d5d5d5;
-    font-size: 16px;
+    font-size: 1em;
     color: #999;
     padding: 0px;
     text-align: right;
@@ -51,5 +51,5 @@ footer {
 ul.posts { 
     margin: 0px auto 0px auto; 
     padding: 0px;
-    font-size: 20px;
+    font-size: 1.25em;
 }
