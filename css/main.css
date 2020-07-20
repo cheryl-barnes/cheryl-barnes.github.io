@@ -2,7 +2,7 @@ body {
     margin: 0px auto 0px auto;
     width: 90%;
     font-family: 'Century Gothic', 'Avenir Next', 'Sans-Serif';
-    font-size: 0.95em;
+    font-size: 1em;
     padding: 0px;
     color: #190CA8;
 }
@@ -34,7 +34,7 @@ a:hover {
 
 p {
     font-family: 'Century Gothic', 'Avenir Next', 'Sans-Serif';
-    font-size: 0.95em;
+    font-size: 1em;
     padding: 0px;
     color: #7A122C;
 }
