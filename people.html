@@ -84,6 +84,22 @@
   column-count: 2;
   column-gap: 40px;
 }
+	
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+   flex: 0 0 calc(33.33% - 30px);   /* flex-basis adjustment for margin */
+   margin: 5px;
+}
+
+img { 
+    width: 100%;
+}
+
 </style>
 	
 <div class="container">
@@ -96,19 +112,25 @@
         <div class="bs-component">
 		
 <div class="text">	
-<p>The following people assisted with one or more projects that I've led (via collecting field and/or lab data, conducting exploratory analyses, facilitating outreach programs, or providing scientific guidance). I have benefitted from both mentoring and learning from these individuals over the years. Resulting <a href="https://cheryl-barnes.github.io/research.html">publications and other professional successes</a> would not have been possible without their time, effort, and...most importantly, enthusiasm! Please also check out the <a href="https://cheryl-barnes.github.io/photo_gallery.html">photo gallery</a>, which highlights some of our collaborative work.</p>
+<p>The following people assisted with one or more projects that I've led (via collecting field and/or lab data, conducting exploratory analyses, facilitating outreach programs, or providing scientific guidance). I have benefitted from both mentoring and learning from these individuals over the years. Resulting <a href="https://cheryl-barnes.github.io/research.html">publications and other professional successes</a> would not have been possible without their time, effort, and...most importantly, enthusiasm! Please also check out the <a href="https://cheryl-barnes.github.io/photo_gallery.html">photo gallery</a>, which highlights some of our collaborative work.
 
-<div class="container">
+<div class="row">
+    
+<div class="item-1 col">
 <figure>
-<img src="./images/CA_Halibut_Heath.jpg" loading="lazy" alt="Hallie estimating batch fecundity for CA Halibut" width=50% height=auto min-height=25px style="padding:0px 4px 0px 0px">
+<img src="./images/CA_Halibut_Heath.jpg" loading="lazy" alt="Hallie estimating batch fecundity for CA Halibut" style="padding:0px 4px 0px 0px">
 <figcaption> 
-<span style="font-size: 0.8em; color: #626C7A;"> Hallie prepares a CA Halibut ovary for batch fecundity estimates. </span></figcaption></figure>
+<span style="font-size: 0.8em; color: #626C7A;"> Hallie prepares a CA Halibut ovary for batch fecundity estimates. </span></figcaption></figure></div>
+
+<div class="item-2 col">
 <figure>
-<img src="./images/PH_ATF_DelgadoNordmann.jpg" loading="lazy" alt="Helena with her Pacific Halibut catch" width=50% height=auto min-height=25px style="padding:0px 0px 0px 0px">
-<figcaption> <span style="font-size: 0.8em; color: #626C7A;"> Helena holds a P. Halibut used to assess food habits in SEAK. </span></figcaption></figure>
+<img src="./images/PH_ATF_DelgadoNordmann.jpg" loading="lazy" alt="Helena with her Pacific Halibut catch" style="padding:0px 0px 0px 0px">
+<figcaption> <span style="font-size: 0.8em; color: #626C7A;"> Helena holds a P. Halibut used to assess food habits in SEAK. </span></figcaption></figure></div>
+	
+<div class="item-3 col">
 <figure>	
-<img src="./images/PH_ATF_dissections.jpg" loading="lazy" alt="Sawyer and Zach working on an assembly line of fish stomachs" width=50% height=auto  min-height=25px style="padding:0px 0px 0px 4px">	
-<figcaption> <span style="font-size: 0.8em; color: #626C7A;"> Sawyer and Zach process an assembly line of fish stomachs from local anglers. </span></figcaption></figure></div>
+<img src="./images/PH_ATF_dissections.jpg" loading="lazy" alt="Sawyer and Zach working on an assembly line of fish stomachs" style="padding:0px 0px 0px 4px">	
+<figcaption> <span style="font-size: 0.8em; color: #626C7A;"> Sawyer and Zach process an assembly line of fish stomachs from local anglers. </span></figcaption></figure></div></div>
 	      
 <div class='columns'>
 <b>MENTORS</b><br> 
@@ -183,7 +205,7 @@ Dani Weir (2009) <br><br></span>
 
 <p> Countless volunteers, fishers, and resource managers have also contributed to my understanding of groundfish dynamics in the California Current and in Alaskan waters. I am forever indebted to these wonderful people, many of whom have become my home away from home. Financial support for my various projects can be found in my <a href="https://cheryl-barnes.github.io/Barnes_CV_web.pdf" target="_blank">CV</a>, under 'Grants and Fellowships'.<br><br>
 
-If you're interested in professional development opportunities or collaborating on a project, <a href="mailto:cheryl.lee.barnes@gmail.com" target="_blank">get in touch</a> &mdash; I'd love to hear from you!</p>
+If you're interested in professional development opportunities or collaborating on a project, <a href="mailto:cheryl.lee.barnes@gmail.com" target="_blank">get in touch</a> &mdash; I'd love to hear from you!</p></p>
 		</div>
 		</div>
 		</div>
