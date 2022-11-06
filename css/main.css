@@ -41,7 +41,7 @@ p {
 }
 
 footer {
-    margin: 0px 5px 0px auto;
+    margin: 0px 5px 0px 5px;
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
     color: #999;
