@@ -79,19 +79,24 @@
   transform: translate(-50%, -50%);
 }
 	
-.columns {
+.columns_2 {
+  column-count: 2;
+  column-gap: 10px;
+  padding: 0px 0px 0px 0px
+}
+	
+.columns_3 {
   column-count: 3;
   column-gap: 5px;
   padding: 0px 0px 0px 0px
 }
-	
+		
 .row {
     display: flex;
 }
-
+	
 .col {
-  flex: 33.33%;
-  padding: 5px;
+  display: flex;
 }
 </style>
 	
@@ -169,6 +174,7 @@ Cheryl and the IMF Lab conduct collaborative scientific research to improve our 
 <div class="container">
 <div class="text">
 <span style="font-size: 1.15em; color: #190CA8; font-weight: bold;"> RESEARCH ASSISTANTS </span> <br>	
+<div class="columns_2">	
 <!---<b><span style="color: #7A122C; font-size: 1.0em;">Meredith Adams</b></span><span style="color: #7A122C; font-size: 0.75em">, she | her</span><br>
 <img src="./images/Adams_Meredith.jpg" align="left" style="margin: 0.5em 0.85em 0.5em 0em; padding: 0px 0px 0px 0px" alt="Meredith Adams" height=auto width=15% min-width=1000px;><br>
 <span style="color: #7A122C">
@@ -250,7 +256,7 @@ Diana is a first year computer science student at the <a href="https://www.colle
 <div class="text">
 <span style="font-size: 1.15em; color: #190CA8; font-weight: bold;"> FORMER STUDENTS AND RESEARCH ASSISTANTS </span> <br>
 
-<div class="columns"; style="padding: 0px 0px 0px 0px;">
+<div class="columns_3"; style="padding: 0px 0px 0px 0px;">
 <span style="font-size: 0.9em; color: #626C7A;">
 <a href="https://www.linkedin.com/in/meredith-adams-5b4992296/" target="_blank">Meredith Adams (2024)</a><br>
 <a href="https://www.linkedin.com/in/alex-aines-68873569/" target="_blank">Alex Aines (2013)</a><br>
