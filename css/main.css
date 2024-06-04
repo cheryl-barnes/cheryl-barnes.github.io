@@ -17,7 +17,6 @@ nav ul, footer ul {
     color: #b7b7b7
 }
 nav ul li, footer ul li {
-    position: sticky;
     display: inline;
     margin: 2.5px 0px 2.5px 0px;
     color: #C5C7CB;
