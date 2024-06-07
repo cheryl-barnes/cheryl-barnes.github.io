@@ -18,9 +18,6 @@ nav ul, footer ul {
 }
 
 nav ul li, footer ul li {
-    position: fixed;
-    display: flex;
-    background-color: white; 
     display: inline;
     margin: 2.5px 0px 2.5px 0px;
     color: #C5C7CB;
