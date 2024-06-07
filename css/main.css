@@ -1,10 +1,10 @@
 header {
   position: fixed;
-  scroll-padding-top: 25px;
   background-color: #FFFFFF
 }
 
 body {
+    scroll-padding-top: 25px;
     width: 100%;
     margin:0; 
     overflow-x: hidden;
