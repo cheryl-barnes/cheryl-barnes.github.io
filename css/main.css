@@ -8,7 +8,10 @@ body {
     color: #190CA8;
 }
 
-nav ul, footer ul {
+nav ul {
+    position: fixed;
+    display: flex;
+    background-color: white; 
     font-family: 'Century Gothic', 'Avenir Next', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -17,7 +20,27 @@ nav ul, footer ul {
     color: #b7b7b7
 }
 
-nav ul li, footer ul li {
+nav ul li {
+    position: fixed;
+    display: flex;
+    background-color: white; 
+    display: inline;
+    margin: 2.5px 0px 2.5px 0px;
+    color: #C5C7CB;
+    padding: 10px 0px 10px 25px;
+    font-size: 1em;
+}
+
+footer ul {
+    font-family: 'Century Gothic', 'Avenir Next', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-size: 1em;    
+    margin: 2.5px auto 2.5px auto;
+    color: #b7b7b7
+}
+
+footer ul li {
     display: inline;
     margin: 2.5px 0px 2.5px 0px;
     color: #C5C7CB;
