@@ -9,6 +9,7 @@ body {
 }
 
 nav ul {
+    height: 25px;
     position: sticky;
     background-color: white; 
     font-family: 'Century Gothic', 'Avenir Next', 'Sans-Serif';
@@ -20,6 +21,7 @@ nav ul {
 }
 
 nav ul li {
+    height: 25px;
     position: sticky;
     background-color: white; 
     display: inline;
