@@ -9,7 +9,6 @@ body {
 }
 
 nav ul {
-    position: fixed;
     background-color: white; 
     font-family: 'Century Gothic', 'Avenir Next', 'Sans-Serif';
     padding: 0px;
@@ -20,7 +19,6 @@ nav ul {
 }
 
 nav ul li {
-    position: fixed;
     background-color: white; 
     display: inline;
     margin: 2.5px 0px 2.5px 0px;
