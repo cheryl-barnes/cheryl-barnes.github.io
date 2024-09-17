@@ -10,10 +10,7 @@ body {
 
 nav ul {
     height: 25px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
+    position: sticky;
     background-color: white; 
     font-family: 'Century Gothic', 'Avenir Next', 'Sans-Serif';
     padding: 0px;
@@ -25,10 +22,7 @@ nav ul {
 
 nav ul li {
     height: 25px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
+    position: sticky;
     background-color: white; 
     display: inline;
     margin: 2.5px 0px 2.5px 0px;
